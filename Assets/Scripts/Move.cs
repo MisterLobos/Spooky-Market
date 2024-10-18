@@ -11,6 +11,8 @@ public class Move : MonoBehaviour
     public GameObject GrabbedObject;
     public Transform PlayerHand;
     public Camera PlayerCamera;
+    public LIstInventory list;
+    public ItemData item1, item2, item3, item4;
 
     // Start is called before the first frame update
     void Start()
