@@ -6,7 +6,7 @@ using UnityEngine;
 public class ItemData : ScriptableObject
 {
     [SerializeField]public int  price;
-    [SerializeField]public string itemName;
+    [SerializeField] public string itemName, itemPrice;
     [SerializeField]public GameObject prefab;
 
 }

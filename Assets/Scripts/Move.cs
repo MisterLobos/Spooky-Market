@@ -26,7 +26,7 @@ public class Move : MonoBehaviour
     {
         Debug.DrawRay(PlayerCamera.transform.position, PlayerCamera.transform.forward * RayDistance, Color.red);
         Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hiT, RayDistance, GrabLayer);
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             //Debug.Log("estoy funcionando");
             if (GrabbedObject == null)
