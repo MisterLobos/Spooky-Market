@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Move : MonoBehaviour
@@ -12,7 +13,7 @@ public class Move : MonoBehaviour
     public Transform PlayerHand;
     public Camera PlayerCamera;
     public LIstInventory list;
-    public ItemData item1, item2, item3, item4;
+    //public ItemData item;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,7 @@ public class Move : MonoBehaviour
         Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hiT, RayDistance, GrabLayer);
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Debug.Log("estoy funcionando");
+            //Debug.Log("estoy funcionando");
             if (GrabbedObject == null)
             {
                 if (hiT.transform != null)
@@ -59,5 +60,11 @@ public class Move : MonoBehaviour
 
         transform.Translate(Input.GetAxis("Horizontal") * velocidad * Time.deltaTime, 0, Input.GetAxis("Vertical") * velocidad * Time.deltaTime);
 
+        
+
     }
+
+
+    
+
 }

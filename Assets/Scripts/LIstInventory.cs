@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class LIstInventory : MonoBehaviour
 {
-    public List<string> inventory = new List<string>();
+    public List<string> item = new List<string>();
+    public ItemData items;
+    
+
 
 }
