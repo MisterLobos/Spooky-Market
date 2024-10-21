@@ -65,6 +65,20 @@ public class Move : MonoBehaviour
     }
 
 
-    
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("SE PUEDE SALIR");
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Salida"))
+        {
+            Quit();
+            Debug.Log("se puede salir");
+        }
+    }
 
 }
