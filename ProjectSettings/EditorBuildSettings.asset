@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Polygon zombie package/scene/Menu Escena.unity
+    guid: 7e995311c22f59c4f90fe61fb280ed6b
+  - enabled: 1
+    path: Assets/Polygon zombie package/scene/super market.unity
+    guid: 25dd7763819b2e1449cd2f9ddeb8782c
   m_configObjects: {}
