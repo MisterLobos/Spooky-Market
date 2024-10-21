@@ -8,10 +8,10 @@ public class Carrito : MonoBehaviour
 {
 
     public LIstInventory list;
-    [SerializeField] ItemData item;
+    [SerializeField] ItemData item, item2, item3, item4;
     public TextMeshProUGUI Text1, text2, textCostTotal;
     public bool isbroken;
-    public int limitMoney = 30, money;
+    public int limitMoney = 15000, money;
     public GameObject salida;
 
 
@@ -26,10 +26,15 @@ public class Carrito : MonoBehaviour
             //print("hola");
             Text1.text = item.itemName;
             text2.text = item.itemPrice;
-            money = item.price;
             Pay();
+            //textcosttotal;
 
-
+        }
+        if (other.gameObject.CompareTag("Item2"))
+        {
+            Text1.text = item2.itemName;
+            text2.text = item2.itemPrice;
+            
         }
     }
 
