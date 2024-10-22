@@ -58,8 +58,8 @@ public class Move : MonoBehaviour
         transform.Rotate(0, MouesX, 0);
         PlayerCamera.transform.Rotate(-MouseY, 0, 0);
 
-        transform.Translate(0, Input.GetAxis("Horizontal") * velocidad * Time.deltaTime, Input.GetAxis("Vertical") * velocidad * Time.deltaTime);
-        //jj
+        transform.Translate(Input.GetAxis("Vertical") * velocidad * Time.deltaTime, Input.GetAxis("Horizontal") * velocidad * Time.deltaTime, 0);
+        //
 
         
 
