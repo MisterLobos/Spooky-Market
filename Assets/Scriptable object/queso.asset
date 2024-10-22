@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c444373b40415ba4483a7f0fada04d7d, type: 3}
   m_Name: queso
   m_EditorClassIdentifier: 
-  price: 0
-  itemName: 
-  itemPrice: 
-  prefab: {fileID: 0}
+  price: 2500
+  itemName: queso
+  itemPrice: 2500
+  prefab: {fileID: 595523522445884136, guid: cc1a36e67463e1041b695bed05d5f2df, type: 3}
