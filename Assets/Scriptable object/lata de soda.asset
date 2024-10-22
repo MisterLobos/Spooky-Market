@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c444373b40415ba4483a7f0fada04d7d, type: 3}
   m_Name: lata de soda
   m_EditorClassIdentifier: 
-  price: 0
-  itemName: 
-  itemPrice: 
+  price: 550
+  itemName: Soda
+  itemPrice: 550
   prefab: {fileID: 0}

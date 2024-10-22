@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c444373b40415ba4483a7f0fada04d7d, type: 3}
   m_Name: item 2
   m_EditorClassIdentifier: 
-  ItemName: 0
-  price: 0
+  price: 500
+  itemName: vela
+  itemPrice: 500
+  prefab: {fileID: 9008473954406179108, guid: f408a167e62bbd543bfdc5f445c4152d, type: 3}

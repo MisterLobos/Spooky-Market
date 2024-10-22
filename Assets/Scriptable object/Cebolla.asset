@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c444373b40415ba4483a7f0fada04d7d, type: 3}
   m_Name: Cebolla
   m_EditorClassIdentifier: 
-  price: 0
-  itemName: 
-  itemPrice: 
+  price: 53
+  itemName: Cebolla
+  itemPrice: 53
   prefab: {fileID: 0}
