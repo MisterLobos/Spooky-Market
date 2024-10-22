@@ -15,4 +15,4 @@ MonoBehaviour:
   price: 950
   itemName: botellas de cola
   itemPrice: 950
-  prefab: {fileID: 0}
+  prefab: {fileID: 1049164539221966, guid: f59492232cf3a6945a2ce192867c86c2, type: 3}

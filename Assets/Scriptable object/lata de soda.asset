@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: lata de soda
   m_EditorClassIdentifier: 
   price: 550
-  itemName: Soda
+  itemName: Lata de Soda
   itemPrice: 550
-  prefab: {fileID: 0}
+  prefab: {fileID: 8998803247781539246, guid: 967bda6cd12c7c34d852681f280bdfef, type: 3}

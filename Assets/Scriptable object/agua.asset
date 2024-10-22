@@ -15,4 +15,4 @@ MonoBehaviour:
   price: 450
   itemName: agua
   itemPrice: 450
-  prefab: {fileID: 0}
+  prefab: {fileID: 8835592703282879395, guid: 0b6e65f0fca42c647855eb8962efa3df, type: 3}

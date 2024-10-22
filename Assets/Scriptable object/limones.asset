@@ -15,4 +15,4 @@ MonoBehaviour:
   price: 850
   itemName: limones
   itemPrice: 850
-  prefab: {fileID: 0}
+  prefab: {fileID: 9100271328223055971, guid: 2c49621a8650a60459ee1c1548bee1d4, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   price: 850
   itemName: Platanos
   itemPrice: 850
-  prefab: {fileID: 0}
+  prefab: {fileID: 1000012997751318, guid: 0550765fb22bb954ea0412b7153ff417, type: 3}

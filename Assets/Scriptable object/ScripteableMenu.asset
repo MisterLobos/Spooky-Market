@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c444373b40415ba4483a7f0fada04d7d, type: 3}
   m_Name: ScripteableMenu
   m_EditorClassIdentifier: 
-  price: 0
-  itemName: 
-  itemPrice: 
-  prefab: {fileID: 0}
+  price: 2500
+  itemName: Queso Corto
+  itemPrice: 2500
+  prefab: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
