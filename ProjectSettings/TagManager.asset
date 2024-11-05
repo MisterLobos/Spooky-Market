@@ -8,6 +8,8 @@ TagManager:
   - Item
   - Salida
   - Item2
+  - item3
+  - item4
   layers:
   - Default
   - TransparentFX
