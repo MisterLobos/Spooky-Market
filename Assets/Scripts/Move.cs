@@ -53,12 +53,12 @@ public class Move : MonoBehaviour
             }
         }
 
-        float MouesX = Input.GetAxis("Mouse X") * sensibilidad * Time.deltaTime;
-        float MouseY = Input.GetAxis("Mouse Y") * sensibilidad * Time.deltaTime;
-        transform.Rotate(0, MouesX, 0);
-        PlayerCamera.transform.Rotate(-MouseY, 0, 0);
+        float mouseX = Input.GetAxis("Mouse X") * sensibilidad * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * sensibilidad * Time.deltaTime;
+        transform.Rotate(0, mouseX, 0);
+        PlayerCamera.transform.Rotate(-mouseY, 0, 0);
 
-        transform.Translate(Input.GetAxis("Vertical") * velocidad * Time.deltaTime, Input.GetAxis("Horizontal") * velocidad * Time.deltaTime, 0);
+        transform.Translate(Input.GetAxis("Horizontal") * velocidad * Time.deltaTime, 0, Input.GetAxis("Vertical") * velocidad * Time.deltaTime);
         //
 
         
