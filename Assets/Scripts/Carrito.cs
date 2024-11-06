@@ -11,7 +11,6 @@ public class Carrito : MonoBehaviour
     public bool isbroken;
     public int limitMoney = 1500, money;
     public GameObject salida;
-
     private float totalCost = 0f; // Variable para almacenar el costo total
     private List<ItemData> itemsInCart = new List<ItemData>(); // Lista para almacenar los ítems en el carrito
 
