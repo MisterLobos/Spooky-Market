@@ -7,10 +7,10 @@ public class Carrito : MonoBehaviour
 {
     public LIstInventory list;
     [SerializeField] ItemData item, item2, item3, item4, item5, item6, item7, item8; // Añade más ítems según tus necesidades
-    public TextMeshProUGUI textReceipt; // Campo de texto para mostrar la boleta
+    public TextMeshProUGUI textReceipt, textPaymentStatus; // Campo de texto para mostrar la boleta
     public bool isbroken;
     public int limitMoney = 1500, money = 1500;
-    //public GameObject salida;
+    public GameObject salida;
     private float totalCost = 0f; // Variable para almacenar el costo total
     private List<ItemData> itemsInCart = new List<ItemData>(); // Lista para almacenar los ítems en el carrito
 
@@ -99,11 +99,14 @@ public class Carrito : MonoBehaviour
             isbroken = true;
             Debug.Log("Esto no se vende, límite de dinero excedido");
             //salida.SetActive(false);
+            textPaymentStatus.text = "Límite de dinero excedido. No se puede realizar la compra."; 
+            salida.SetActive(false);
         }
         else
         {
             isbroken = false;
             Debug.Log("Se puede vender");
+            textPaymentStatus.text = "Compra realizada con éxito."; salida.SetActive(true);
             //salida.SetActive(true);
         }
     }
