@@ -6,10 +6,13 @@ TagManager:
   tags:
   - Carrito
   - Item
-  - Salida
   - Item2
   - item3
   - item4
+  - Item3
+  - Item4
+  - Item5
+  - Salida
   layers:
   - Default
   - TransparentFX
