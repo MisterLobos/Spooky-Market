@@ -6,11 +6,11 @@ using TMPro;
 public class Carrito : MonoBehaviour
 {
     public LIstInventory list;
-    [SerializeField] ItemData item, item2, item3, item4, item5; // Añade más ítems según tus necesidades
+    [SerializeField] ItemData item, item2, item3, item4, item5, item6, item7, item8; // Añade más ítems según tus necesidades
     public TextMeshProUGUI textReceipt; // Campo de texto para mostrar la boleta
     public bool isbroken;
     public int limitMoney = 1500, money = 1500;
-    public GameObject salida;
+    //public GameObject salida;
     private float totalCost = 0f; // Variable para almacenar el costo total
     private List<ItemData> itemsInCart = new List<ItemData>(); // Lista para almacenar los ítems en el carrito
 
@@ -53,7 +53,7 @@ public class Carrito : MonoBehaviour
         { 
             RemoveItemFromCart(item3);
         } 
-        else if (other.gameObject.CompareTag("Item4"))
+        else if (other.gameObject.CompareTag("Item4"))  
         { 
             RemoveItemFromCart(item4); 
         } 
@@ -98,13 +98,13 @@ public class Carrito : MonoBehaviour
         {
             isbroken = true;
             Debug.Log("Esto no se vende, límite de dinero excedido");
-            salida.SetActive(false);
+            //salida.SetActive(false);
         }
         else
         {
             isbroken = false;
             Debug.Log("Se puede vender");
-            salida.SetActive(true);
+            //salida.SetActive(true);
         }
     }
 }
