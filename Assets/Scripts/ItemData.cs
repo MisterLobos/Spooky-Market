@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "ScripteableMenu", menuName = "ScripteableObjects")]
+[CreateAssetMenu(fileName = "ScriptableMenu", menuName = "ScriptableObjects/ItemData")]
 public class ItemData : ScriptableObject
 {
-    [SerializeField]public int  price;
-    [SerializeField] public string itemName, itemPrice;
-    [SerializeField]public GameObject prefab;
-
+    [SerializeField] public string itemName; // Nombre del ítem
+    [SerializeField] public GameObject prefab; // Prefab del ítem
+    [SerializeField] public float price; // Precio del ítem
 }

@@ -3,104 +3,91 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
 public class Carrito : MonoBehaviour
 {
-
     public LIstInventory list;
-    [SerializeField] ItemData item, item2, item3, item4;
-    public TextMeshProUGUI Text1, text2, textCostTotal;
+    [SerializeField] ItemData item, item2; // Añade más ítems según tus necesidades
+    public TextMeshProUGUI textReceipt; // Campo de texto para mostrar la boleta
     public bool isbroken;
     public int limitMoney = 1500, money;
     public GameObject salida;
 
+    private float totalCost = 0f; // Variable para almacenar el costo total
+    private List<ItemData> itemsInCart = new List<ItemData>(); // Lista para almacenar los ítems en el carrito
+
     private void OnTriggerEnter(Collider other)
     {
-        // Revisa si el objeto tiene el tag "Item" o "Item2" y realiza las acciones adecuadas
         if (other.gameObject.CompareTag("Item"))
         {
-            list.item.Add(item.itemName); // Añade el nombre del primer item a la lista
-            UpdateUI(item);
-            Pay();
+            AddItemToCart(item);
         }
         else if (other.gameObject.CompareTag("Item2"))
         {
-            list.item.Add(item2.itemName); // Añade el nombre del segundo item a la lista
-            UpdateUI(item2);
-            Pay();
+            AddItemToCart(item2);
         }
-        else if (other.gameObject.CompareTag("Item3"))
-        {
-            list.item.Add(item3.itemName); // Añade el nombre del tercer item a la lista
-            UpdateUI(item3);
-            Pay();
-        }
-        else if (other.gameObject.CompareTag("Item4"))
-        {
-            list.item.Add(item4.itemName); // Añade el nombre del cuarto item a la lista
-            UpdateUI(item4);
-            Pay();
-        }
+        // Añade más condiciones para Item3, Item4, etc. según tus necesidades
     }
 
     private void OnTriggerExit(Collider other)
     {
-        // Elimina el item que ha salido del carrito y actualiza el UI
         if (other.gameObject.CompareTag("Item"))
         {
-            list.item.Remove(item.itemName);
-            ClearUI();
+            RemoveItemFromCart(item);
         }
         else if (other.gameObject.CompareTag("Item2"))
         {
-            list.item.Remove(item2.itemName);
-            ClearUI();
+            RemoveItemFromCart(item2);
         }
-        else if (other.gameObject.CompareTag("Item3"))
-        {
-            list.item.Remove(item3.itemName);
-            ClearUI();
-        }
-        else if (other.gameObject.CompareTag("Item4"))
-        {
-            list.item.Remove(item4.itemName);
-            ClearUI();
-        }
+        // Añade más condiciones para Item3, Item4, etc. según tus necesidades
     }
 
-    
-    private void UpdateUI(ItemData itemData)
+    private void AddItemToCart(ItemData item)
     {
-        Text1.text = itemData.itemName;
-        text2.text = itemData.itemPrice.ToString(); 
+        itemsInCart.Add(item);
+        list.item.Add(item.itemName);
+        totalCost += item.price;
+        UpdateReceipt();
+        Pay();
     }
 
-    
-    private void ClearUI()
+    private void RemoveItemFromCart(ItemData item)
     {
-        Text1.text = null;
-        text2.text = null;
+        itemsInCart.Remove(item);
+        list.item.Remove(item.itemName);
+        totalCost -= item.price;
+        UpdateReceipt();
     }
 
+    private void UpdateReceipt()
+    {
+        string receiptText = "Boleta:\n";
+        foreach (ItemData item in itemsInCart)
+        {
+            receiptText += $"{item.itemName}: ${item.price.ToString("F2")}\n";
+        }
+        receiptText += $"Total: ${totalCost.ToString("F2")}";
+        textReceipt.text = receiptText;
+    }
 
     public void Pay()
     {
-        if (money > limitMoney) 
+        if (totalCost > limitMoney)
         {
             isbroken = true;
-            print("Esto no se puede vender, límite de dinero excedido");
-            salida.SetActive(false); 
+            Debug.Log("Esto no se vende, límite de dinero excedido");
+            salida.SetActive(false);
         }
         else
         {
             isbroken = false;
-            print("Se puede vender");
+            Debug.Log("Se puede vender");
             salida.SetActive(true);
         }
     }
-
-
 }
 
 
-    
+
+
+
+

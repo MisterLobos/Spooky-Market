@@ -12,7 +12,7 @@ public class Move : MonoBehaviour
     public GameObject GrabbedObject;
     public Transform PlayerHand;
     public Camera PlayerCamera;
-    public LIstInventory list;
+    public LIstInventory list; // Corrigiendo el nombre a ListInventory
     //public ItemData item;
 
     // Start is called before the first frame update
@@ -24,54 +24,48 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Dibuja un rayo rojo en la dirección hacia adelante de la cámara del jugador
         Debug.DrawRay(PlayerCamera.transform.position, PlayerCamera.transform.forward * RayDistance, Color.red);
-        Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hiT, RayDistance, GrabLayer);
-        if (Input.GetKeyDown(KeyCode.E))
+
+        // Realiza un Raycast en la dirección hacia adelante de la cámara del jugador
+        if (Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hiT, RayDistance, GrabLayer))
         {
-            //Debug.Log("estoy funcionando");
-            if (GrabbedObject == null)
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                if (hiT.transform != null)
+                if (GrabbedObject == null)
                 {
-                    GrabbedObject = hiT.transform.gameObject;
-                    GrabbedObject.transform.SetParent(PlayerHand);
-                    GrabbedObject.transform.localPosition = Vector3.zero;
-                    GrabbedObject.GetComponent<Rigidbody>().isKinematic = true;
-
-
-
+                    if (hiT.transform != null)
+                    {
+                        GrabbedObject = hiT.transform.gameObject;
+                        GrabbedObject.transform.SetParent(PlayerHand);
+                        GrabbedObject.transform.localPosition = Vector3.zero;
+                        GrabbedObject.GetComponent<Rigidbody>().isKinematic = true;
+                    }
                 }
-
-            }
-            else
-            {
-                GrabbedObject.transform.SetParent(null);
-                GrabbedObject.GetComponent<Rigidbody>().isKinematic = false;
-                GrabbedObject = null;
-
-
+                else
+                {
+                    GrabbedObject.transform.SetParent(null);
+                    GrabbedObject.GetComponent<Rigidbody>().isKinematic = false;
+                    GrabbedObject = null;
+                }
             }
         }
 
+        // Movimiento del ratón para rotar la cámara del jugador
         float mouseX = Input.GetAxis("Mouse X") * sensibilidad * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * sensibilidad * Time.deltaTime;
         transform.Rotate(0, mouseX, 0);
         PlayerCamera.transform.Rotate(-mouseY, 0, 0);
 
+        // Movimiento del jugador
         transform.Translate(Input.GetAxis("Horizontal") * velocidad * Time.deltaTime, 0, Input.GetAxis("Vertical") * velocidad * Time.deltaTime);
-        //
-
-        
-
     }
-
 
     public void Quit()
     {
         Application.Quit();
         Debug.Log("SE PUEDE SALIR");
     }
-
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -81,5 +75,5 @@ public class Move : MonoBehaviour
             Debug.Log("se puede salir");
         }
     }
-
 }
+
