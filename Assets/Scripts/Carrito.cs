@@ -6,7 +6,7 @@ using TMPro;
 public class Carrito : MonoBehaviour
 {
     public LIstInventory list;
-    [SerializeField] ItemData item, item2; // Añade más ítems según tus necesidades
+    [SerializeField] ItemData item, item2, item3, item4, item5; // Añade más ítems según tus necesidades
     public TextMeshProUGUI textReceipt; // Campo de texto para mostrar la boleta
     public bool isbroken;
     public int limitMoney = 1500, money = 1500;
@@ -25,6 +25,18 @@ public class Carrito : MonoBehaviour
             AddItemToCart(item2);
         }
         // Añade más condiciones para Item3, Item4, etc. según tus necesidades
+        else if (other.gameObject.CompareTag("Item3")) 
+        { 
+            AddItemToCart(item3);
+        }
+        else if (other.gameObject.CompareTag("Item4"))
+        {
+            AddItemToCart(item4);
+        }
+        else if (other.gameObject.CompareTag("Item5"))
+        {
+            AddItemToCart(item5);
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -36,6 +48,18 @@ public class Carrito : MonoBehaviour
         else if (other.gameObject.CompareTag("Item2"))
         {
             RemoveItemFromCart(item2);
+        }
+        else if (other.gameObject.CompareTag("Item3")) 
+        { 
+            RemoveItemFromCart(item3);
+        } 
+        else if (other.gameObject.CompareTag("Item4"))
+        { 
+            RemoveItemFromCart(item4); 
+        } 
+        else if (other.gameObject.CompareTag("Item5")) 
+        { 
+            RemoveItemFromCart(item5); 
         }
         // Añade más condiciones para Item3, Item4, etc. según tus necesidades
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.028483178, g: 0.017929155, b: 0.0064357175, a: 1}
+  m_IndirectSpecularColor: {r: 0.028483178, g: 0.017929157, b: 0.00643572, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -53346,12 +53346,11 @@ MonoBehaviour:
   item2: {fileID: 0}
   item3: {fileID: 0}
   item4: {fileID: 0}
-  Text1: {fileID: 0}
-  text2: {fileID: 0}
-  textCostTotal: {fileID: 0}
+  item5: {fileID: 0}
+  textReceipt: {fileID: 1239502753}
   isbroken: 0
   limitMoney: 1500
-  money: 0
+  money: 1500
   salida: {fileID: 0}
 --- !u!54 &1171825161
 Rigidbody:
@@ -79337,7 +79336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   RayDistance: 15
-  sensibilidad: 300
+  sensibilidad: 50
   velocidad: 5
   GrabLayer:
     serializedVersion: 2
