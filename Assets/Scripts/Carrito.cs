@@ -9,7 +9,7 @@ public class Carrito : MonoBehaviour
     [SerializeField] ItemData item, item2; // Añade más ítems según tus necesidades
     public TextMeshProUGUI textReceipt; // Campo de texto para mostrar la boleta
     public bool isbroken;
-    public int limitMoney = 1500, money;
+    public int limitMoney = 1500, money = 1500;
     public GameObject salida;
     private float totalCost = 0f; // Variable para almacenar el costo total
     private List<ItemData> itemsInCart = new List<ItemData>(); // Lista para almacenar los ítems en el carrito
