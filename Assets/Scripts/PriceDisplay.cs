@@ -8,7 +8,7 @@ public class PriceDisplay : MonoBehaviour
     public ItemData itemData;
 
     public Text priceText;  
-    // Start is called before the first frame update
+    
     void Start()
     {
         if(priceText !=null)
