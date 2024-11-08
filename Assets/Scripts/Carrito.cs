@@ -16,24 +16,24 @@ public class Carrito : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Item"))
+        if (other.gameObject.CompareTag("Platano"))
         {
             AddItemToCart(item);
         }
-        else if (other.gameObject.CompareTag("Item2"))
+        else if (other.gameObject.CompareTag("Cebolla"))
         {
             AddItemToCart(item2);
         }
         // Añade más condiciones para Item3, Item4, etc. según tus necesidades
-        else if (other.gameObject.CompareTag("Item3")) 
+        else if (other.gameObject.CompareTag("Queso")) 
         { 
             AddItemToCart(item3);
         }
-        else if (other.gameObject.CompareTag("Item4"))
+        else if (other.gameObject.CompareTag("Loncha de Queso"))
         {
             AddItemToCart(item4);
         }
-        else if (other.gameObject.CompareTag("Item5"))
+        else if (other.gameObject.CompareTag("Piña"))
         {
             AddItemToCart(item5);
         }
@@ -41,23 +41,23 @@ public class Carrito : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Item"))
+        if (other.gameObject.CompareTag("Platano"))
         {
             RemoveItemFromCart(item);
         }
-        else if (other.gameObject.CompareTag("Item2"))
+        else if (other.gameObject.CompareTag("Cebolla"))
         {
             RemoveItemFromCart(item2);
         }
-        else if (other.gameObject.CompareTag("Item3")) 
+        else if (other.gameObject.CompareTag("Queso")) 
         { 
             RemoveItemFromCart(item3);
         } 
-        else if (other.gameObject.CompareTag("Item4"))  
+        else if (other.gameObject.CompareTag("Loncha de Queso"))  
         { 
             RemoveItemFromCart(item4); 
         } 
-        else if (other.gameObject.CompareTag("Item5")) 
+        else if (other.gameObject.CompareTag("Piña")) 
         { 
             RemoveItemFromCart(item5); 
         }
