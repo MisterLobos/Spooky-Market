@@ -29,7 +29,7 @@ public class Carrito : MonoBehaviour
         { 
             AddItemToCart(Queso);
         }
-        else if (other.gameObject.CompareTag("Loncha de Queso"))
+        else if (other.gameObject.CompareTag("Loncha"))
         {
             AddItemToCart(Loncha);
         }
