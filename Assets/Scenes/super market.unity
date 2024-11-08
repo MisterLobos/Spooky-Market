@@ -2496,7 +2496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013808630610, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Pimenton
       objectReference: {fileID: 0}
     - target: {fileID: 4000010883411580, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18537,7 +18537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013808630610, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Pimenton
       objectReference: {fileID: 0}
     - target: {fileID: 4000010883411580, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22084,7 +22084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013808630610, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Pimenton
       objectReference: {fileID: 0}
     - target: {fileID: 4000010883411580, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32005,7 +32005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013808630610, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Pimenton
       objectReference: {fileID: 0}
     - target: {fileID: 4000010883411580, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38912,7 +38912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013808630610, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Pimenton
       objectReference: {fileID: 0}
     - target: {fileID: 4000010883411580, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56826,7 +56826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013808630610, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Pimenton
       objectReference: {fileID: 0}
     - target: {fileID: 4000010883411580, guid: eae0d75f8edbe3349b65105f0c6b5665, type: 3}
       propertyPath: m_LocalPosition.x

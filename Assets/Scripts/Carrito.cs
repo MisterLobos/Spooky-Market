@@ -65,7 +65,7 @@ public class Carrito : MonoBehaviour
         { 
             RemoveItemFromCart(piña); 
         }
-        else if (other.gameObject.CompareTag("Piña"))
+        else if (other.gameObject.CompareTag("Pimenton"))
         {
             RemoveItemFromCart(Pimenton);
         }
