@@ -6351,7 +6351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15359,7 +15359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011653470102, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Queso
       objectReference: {fileID: 0}
     - target: {fileID: 4000012881309536, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22212,7 +22212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010466361374, guid: 80c29c7e0bd64654f8f59dda85e24897, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: "Pi\xF1a"
       objectReference: {fileID: 0}
     - target: {fileID: 4000012476222584, guid: 80c29c7e0bd64654f8f59dda85e24897, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25111,7 +25111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25566,7 +25566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011653470102, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Queso
       objectReference: {fileID: 0}
     - target: {fileID: 4000012881309536, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27300,7 +27300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010466361374, guid: 80c29c7e0bd64654f8f59dda85e24897, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: "Pi\xF1a"
       objectReference: {fileID: 0}
     - target: {fileID: 4000012476222584, guid: 80c29c7e0bd64654f8f59dda85e24897, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28996,7 +28996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: Cebolla
       objectReference: {fileID: 0}
     - target: {fileID: 4089867009530516, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30790,7 +30790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011653470102, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Queso
       objectReference: {fileID: 0}
     - target: {fileID: 4000012881309536, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31217,7 +31217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32763,7 +32763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: Cebolla
       objectReference: {fileID: 0}
     - target: {fileID: 4089867009530516, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33591,7 +33591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: Cebolla
       objectReference: {fileID: 0}
     - target: {fileID: 4089867009530516, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36082,7 +36082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011653470102, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Queso
       objectReference: {fileID: 0}
     - target: {fileID: 4000012881309536, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38019,7 +38019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39063,7 +39063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40673,7 +40673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: Cebolla
       objectReference: {fileID: 0}
     - target: {fileID: 4089867009530516, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43651,7 +43651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44159,7 +44159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45170,7 +45170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46284,7 +46284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -50230,7 +50230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -50769,7 +50769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53352,14 +53352,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list: {fileID: 1828588995}
-  item: {fileID: 11400000, guid: db58afe5818d8db41807bda89bcc5d8a, type: 2}
-  item2: {fileID: 11400000, guid: a6d32ca46d1f7e447890fd295fabea7b, type: 2}
-  item3: {fileID: 11400000, guid: 0da939e9a866c854e8e7a8221ad5c675, type: 2}
-  item4: {fileID: 11400000, guid: 362aa84a667c66943a271d1704e8338d, type: 2}
-  item5: {fileID: 0}
-  item6: {fileID: 0}
-  item7: {fileID: 0}
-  item8: {fileID: 0}
+  PLatano: {fileID: 0}
+  Cebolla: {fileID: 0}
+  Queso: {fileID: 0}
+  Loncha: {fileID: 0}
+  "pi\xF1a": {fileID: 0}
   textReceipt: {fileID: 1239502753}
   textPaymentStatus: {fileID: 1395775114}
   isbroken: 1
@@ -67633,7 +67630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -71174,7 +71171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: Cebolla
       objectReference: {fileID: 0}
     - target: {fileID: 4089867009530516, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -75472,7 +75469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010466361374, guid: 80c29c7e0bd64654f8f59dda85e24897, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: "Pi\xF1a"
       objectReference: {fileID: 0}
     - target: {fileID: 4000012476222584, guid: 80c29c7e0bd64654f8f59dda85e24897, type: 3}
       propertyPath: m_LocalPosition.x
@@ -77498,7 +77495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: Cebolla
       objectReference: {fileID: 0}
     - target: {fileID: 4089867009530516, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -79326,7 +79323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011653470102, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_TagString
-      value: item4
+      value: Queso
       objectReference: {fileID: 0}
     - target: {fileID: 4000012881309536, guid: 8d8015ded5f690247a600cc376e7b0e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -81466,7 +81463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: Cebolla
       objectReference: {fileID: 0}
     - target: {fileID: 4089867009530516, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -82290,7 +82287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: Cebolla
       objectReference: {fileID: 0}
     - target: {fileID: 4089867009530516, guid: 097013ceeb8052648be3891c0984df9a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -88597,7 +88594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_TagString
-      value: Item2
+      value: Loncha
       objectReference: {fileID: 0}
     - target: {fileID: 4000014078492148, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -91175,7 +91172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010466361374, guid: 80c29c7e0bd64654f8f59dda85e24897, type: 3}
       propertyPath: m_TagString
-      value: Item
+      value: "Pi\xF1a"
       objectReference: {fileID: 0}
     - target: {fileID: 4000012476222584, guid: 80c29c7e0bd64654f8f59dda85e24897, type: 3}
       propertyPath: m_LocalPosition.x

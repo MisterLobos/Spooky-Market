@@ -13,6 +13,11 @@ TagManager:
   - Item4
   - Item5
   - Salida
+  - Platano
+  - Cebolla
+  - Queso
+  - Loncha
+  - "Pi\xF1a"
   layers:
   - Default
   - TransparentFX

@@ -6,7 +6,7 @@ using TMPro;
 public class Carrito : MonoBehaviour
 {
     public LIstInventory list;
-    [SerializeField] ItemData item, item2, item3, item4, item5, item6, item7, item8; // Añade más ítems según tus necesidades
+    [SerializeField] ItemData PLatano, Cebolla, Queso, Loncha, piña; // Añade más ítems según tus necesidades
     public TextMeshProUGUI textReceipt, textPaymentStatus; // Campo de texto para mostrar la boleta
     public bool isbroken;
     public int limitMoney = 1500, money = 1500;
@@ -18,24 +18,24 @@ public class Carrito : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Platano"))
         {
-            AddItemToCart(item);
+            AddItemToCart(PLatano);
         }
         else if (other.gameObject.CompareTag("Cebolla"))
         {
-            AddItemToCart(item2);
+            AddItemToCart(Cebolla);
         }
         // Añade más condiciones para Item3, Item4, etc. según tus necesidades
         else if (other.gameObject.CompareTag("Queso")) 
         { 
-            AddItemToCart(item3);
+            AddItemToCart(Queso);
         }
         else if (other.gameObject.CompareTag("Loncha de Queso"))
         {
-            AddItemToCart(item4);
+            AddItemToCart(Loncha);
         }
         else if (other.gameObject.CompareTag("Piña"))
         {
-            AddItemToCart(item5);
+            AddItemToCart(piña);
         }
     }
 
@@ -43,23 +43,23 @@ public class Carrito : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Platano"))
         {
-            RemoveItemFromCart(item);
+            RemoveItemFromCart(PLatano);
         }
         else if (other.gameObject.CompareTag("Cebolla"))
         {
-            RemoveItemFromCart(item2);
+            RemoveItemFromCart(Cebolla);
         }
         else if (other.gameObject.CompareTag("Queso")) 
         { 
-            RemoveItemFromCart(item3);
+            RemoveItemFromCart(Queso);
         } 
-        else if (other.gameObject.CompareTag("Loncha de Queso"))  
+        else if (other.gameObject.CompareTag("Loncha"))  
         { 
-            RemoveItemFromCart(item4); 
+            RemoveItemFromCart(Loncha); 
         } 
         else if (other.gameObject.CompareTag("Piña")) 
         { 
-            RemoveItemFromCart(item5); 
+            RemoveItemFromCart(piña); 
         }
         // Añade más condiciones para Item3, Item4, etc. según tus necesidades
     }
