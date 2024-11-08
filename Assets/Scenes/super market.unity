@@ -53352,11 +53352,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list: {fileID: 1828588995}
-  PLatano: {fileID: 0}
-  Cebolla: {fileID: 0}
-  Queso: {fileID: 0}
-  Loncha: {fileID: 0}
-  "pi\xF1a": {fileID: 0}
+  PLatano: {fileID: 11400000, guid: 0da939e9a866c854e8e7a8221ad5c675, type: 2}
+  Cebolla: {fileID: 11400000, guid: 516aaacf15a7396429e81978f756207b, type: 2}
+  Queso: {fileID: 11400000, guid: 362aa84a667c66943a271d1704e8338d, type: 2}
+  Loncha: {fileID: 11400000, guid: a6d32ca46d1f7e447890fd295fabea7b, type: 2}
+  "pi\xF1a": {fileID: 11400000, guid: db58afe5818d8db41807bda89bcc5d8a, type: 2}
+  Pimenton: {fileID: 11400000, guid: c13b7fbbfa4f85f49890296bae9fe76e, type: 2}
   textReceipt: {fileID: 1239502753}
   textPaymentStatus: {fileID: 1395775114}
   isbroken: 1
@@ -94242,6 +94243,10 @@ PrefabInstance:
     - target: {fileID: 4914762150354983919, guid: 3822440878f054a4e88d87deea45ce67, type: 3}
       propertyPath: m_Name
       value: Banana (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4914762150354983919, guid: 3822440878f054a4e88d87deea45ce67, type: 3}
+      propertyPath: m_TagString
+      value: Platano
       objectReference: {fileID: 0}
     - target: {fileID: 8680458499761850998, guid: 3822440878f054a4e88d87deea45ce67, type: 3}
       propertyPath: m_LocalPosition.x
